@@ -1,4 +1,4 @@
-function taskFirst() {
+export function taskFirst() {
     const taskName = "Complete homework";
     const dueDate = "2024-10-10";
     const priority = "High";
@@ -8,9 +8,9 @@ function taskFirst() {
     console.log(`Priority: ${priority}`);
 }
 
-taskFirst();
+taskFirs(t);
 
-function taskNext() {
+export function taskNext() {
     let taskName = "Prepare presentation";
     let dueDate = "2024-10-15";
 

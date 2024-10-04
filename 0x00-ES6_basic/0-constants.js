@@ -1,8 +1,8 @@
-function taskFirst() {
+export function taskFirst() {
   const task = 'First task';
   return task;
 }
-function taskNext() {
+export function taskNext() {
   let task = 'Next task';
   return task;
 }

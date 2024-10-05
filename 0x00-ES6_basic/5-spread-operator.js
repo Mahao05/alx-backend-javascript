@@ -1,4 +1,4 @@
-export default function concatArrays(['a', 'b'], ['c', 'd'], 'Hello') {
+export default function concatArrays(array1, array2, string){
   return [...array1, ...array2, ...string];
 }
 

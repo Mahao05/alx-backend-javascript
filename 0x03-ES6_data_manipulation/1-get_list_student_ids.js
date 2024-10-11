@@ -5,6 +5,7 @@ return[
 {id:2, firstName:’James’, location:’Columbia’},
 {id:3, firstName:’Serena’, location:’San Francisco’}
 ]
+}
 
 getListStudents();
 
@@ -16,5 +17,4 @@ return  array.map((a) => a.id)
 }
 
 getListStudentIds(“hello”);
-getListStudentIds(getListStudents()ear
-
+getListStudentIds(getListStudents()

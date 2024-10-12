@@ -8,13 +8,3 @@ return[
 }
 
 getListStudents();
-
-function getListStudentId(array){
-if (!Array.isArray(Array)){
-return [];
-}
-return  array.map((a) => a.id)
-}
-
-getListStudentIds(“hello”);
-getListStudentIds(getListStudents()
